@@ -1,0 +1,45 @@
+[Mon Mar 28 21:11:10 2016] [error] (2)No such file or directory: mod_mime_magic: can't read magic file /home/neerajk/apache_files/conf/magic
+[Mon Mar 28 21:11:10 2016] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Mar 28 21:11:10 2016] [error] (2)No such file or directory: mod_mime_magic: can't read magic file /home/neerajk/apache_files/conf/magic
+[Mon Mar 28 21:11:10 2016] [notice] Digest: generating secret for digest authentication ...
+[Mon Mar 28 21:11:10 2016] [notice] Digest: done
+[Mon Mar 28 21:11:10 2016] [notice] Apache/2.2.15 (Unix) DAV/2 configured -- resuming normal operations
+[Mon Mar 28 21:11:27 2016] [error] [client 169.234.244.139] File does not exist: /home/neerajk/apache_files/www/html/favicon.ico, referer: http://andromeda-10.ics.uci.edu:8080/
+[Mon Mar 28 21:11:34 2016] [error] [client 169.234.244.139] File does not exist: /home/neerajk/apache_files/www/html/index.html
+[Mon Mar 28 21:11:42 2016] [error] [client 169.234.244.139] File does not exist: /home/neerajk/apache_files/www/html/html
+[Sat Apr 02 10:21:04 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/weedBackground.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:09:38 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/SuperLHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:09:41 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/SuperLHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:10:20 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/SuperLHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:10:20 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/SuperLHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:11:12 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/PurpleHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:23:32 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/purpleHaze.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:38:49 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/KK.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:39:09 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/KK.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 11:39:42 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/KK.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 12:14:02 2016] [error] [client 128.195.67.200] File does not exist: /home/orozcojd/HTML5Application/public_html/BBERY.jpg, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 20:38:56 2016] [error] [client 128.195.67.164] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 20:47:54 2016] [error] [client 128.195.75.250] File does not exist: /home/orozcojd/HTML5Application/public_html/skywalker.html/, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sat Apr 02 22:53:12 2016] [error] [client 128.195.75.250] File does not exist: /home/orozcojd/HTML5Application/public_html/BBERY.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sat Apr 02 23:29:11 2016] [error] [client 128.195.78.167] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sun Apr 03 08:30:03 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sun Apr 03 08:52:40 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKERG.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 08:58:53 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:00:26 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:00:42 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:03:04 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:09:50 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:11:34 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:12:13 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:14:35 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 09:20:05 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/SKYWALKER.jpg, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 12:03:30 2016] [error] [client 128.195.68.16] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Sun Apr 03 12:34:36 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/slideShow.js, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 12:36:05 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/slideShow.js, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 12:37:53 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/slideShow.js, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 12:38:36 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/slideShow.js, referer: http://andromeda-16.ics.uci.edu:8405/skywalker.html
+[Sun Apr 03 13:11:22 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico
+[Sun Apr 03 13:11:22 2016] [error] [client 128.195.67.226] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico
+[Mon Apr 04 09:57:25 2016] [error] [client 169.234.37.250] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Mon Apr 04 11:52:35 2016] [error] [client 169.234.77.224] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
+[Mon Apr 04 15:16:07 2016] [error] [client 169.234.111.161] File does not exist: /home/orozcojd/HTML5Application/public_html/favicon.ico, referer: http://andromeda-16.ics.uci.edu:8405/index.html
