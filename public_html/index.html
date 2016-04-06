@@ -8,11 +8,17 @@
     background-size:100% auto;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    
    }
-    </style>
-    <style>
-        #titleP{
+        tr.spaceUnder1 > th
+        {
+            padding-bottom:1em;
+        }
+        tr.spaceUnder2 > td
+        {
+            padding-bottom:1em;
+        }
+        #titleP
+        {
             color:#ff80aa;
         }
         div.home
@@ -26,7 +32,8 @@
         {
             font-family: Arial, Helvetica, sans-serif;
         }
-        img{
+        img
+        {
             border-radius: 400px;
             height:auto;
             max-width:100%;
@@ -34,61 +41,71 @@
         #p1 
         {
             background-color: hsla(0, 0%, 0%, 0.6);
-            width: 5px;
             
         }
+        body
+        {
+            background-color: hsla(0, 0%, 0%, 0.6);
+   
+        }
+        .thumbnail:hover 
+        {
+            transform:scale(1.5,1.5);
+            transform-origin: 0.2 0.5;
+}
         </style>
 
-<div class =" home">
+        <body class="body"> 
+<div class = " home">
     <h2 id="titleP" class="font">Exotic Fish</h2>
     
 </div>
-<table id="p1" border="0" style="color:white; text-align: center; font-family: Arial, Helvetica, sans-serif; width:100%">
-    <tr  style="font-size:200%">
+<table  border="0" style="color:white; text-align: center; font-family: Arial, Helvetica, sans-serif; width:100%">
+    <tr class="spaceUnder1" style="font-size:200%">
         <th ><strong>Saltwater Fish</strong></th>
         <th ><strong> Freshwater Fish</strong></th>
         <th ><strong>Corals</strong></th>
         <th ><strong>Invertebrates</strong></th>
-        
     </tr>
+   
     <tr style="font-size:150%; align:top">
         <th>Pipefish</th>
         <th> Discus</th>
         <th> Frags</th>
         <th>Shrimps</th>
-                
+        
     </tr>
-    <tr style="font-size:250%">
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="pipefish3.jpg" style ="width:275px;height:275px; align:top"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="discus4.jpg" style ="width:275px;height:275px;align:bottom"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="frag1.jpg" style ="width:275px;height:275px;align:middle"></td> 
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="shrimp3.jpg" style ="width:275px;height:275px;align:middle"></td>    
-
+    
+    <tr  style="font-size:250%">
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="pipefish3.jpg" alt = "pipefish3" style ="width:275px;height:275px;"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="discus4.jpg" style ="width:275px;height:275px;align:bottom"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="frag1.jpg" style ="width:275px;height:275px;align:middle"></td> 
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="shrimp3.jpg" style ="width:275px;height:275px;align:middle"></td>    
     </tr>
-    <tr>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
-        <td style= "height:30px"> Price: $2878.99/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
+    <tr class ="spaceUnder2">
+        <td style= "height:30px"> Syngnathinae <br> Price: $34.95 </td>
+        <td style= "height:30px"> Symphysodon <br> Price: 88.95 </td>
+        <td style= "height:30px"> Cladiella Sp <br> Price: $49.95 </td>
+        <td style= "height:30px"> Caridea <br> Price: $15.95</td>
         
     </tr>
     <tr style="font-size:150%; align:top">
         <th>Seahorse</th>
         <th> Arowana</th>
-        <th>Euphyllia Glabrescen</th>
+        <th>Torch coral</th>
         <th>Sea urchin</th>
     <tr style="font-size:250%">
         
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#skywalker"></A><img src="seahorse1.jpg" alt="seahorse1" style ="width:275px;height:275px;align:middle"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="Arowana3.jpg" alt="Arowana3" style ="width:275px;height:275px;align:middle"></A></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="euphylia3.jpg" alt="euphylia3" style ="width:275px;height:275px;align:middle"></td>  
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="seaurchin4.jpg" alt="seaurchin4" style ="width:275px;height:275px;align:middle"></A></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#skywalker"></A><img src="seahorse1.jpg" alt="seahorse1" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="arowana3.jpg" alt="Arowana3" style ="width:275px;height:275px;align:middle"></A></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="euphylia3.jpg" alt="euphylia3" style ="width:275px;height:275px;align:middle"></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="seaurchin4.jpg" alt="seaurchin4" style ="width:275px;height:275px;align:middle"></A></td>
     </tr>
-    <tr>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
-        <td style= "height:30px"> Price: $2878.99/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
+    <tr class ="spaceUnder2">
+        <td style= "height:30px"> Hippocampus <br> Price: $74.95</td>
+        <td style= "height:30px"> Osteoglossidae <br> Price: $495.95</td>
+        <td style= "height:30px"> Euphyllia Glabrescen<br> Price: $79.95</td>
+        <td style= "height:30px"> Echinoidea <br> Price: $18.95</td>
 
     </tr>
     <tr style="font-size:150%; align:top">
@@ -97,17 +114,17 @@
         <th>Soft Coral</th>
         <th>Sponge</th>
     <tr style="font-size:250%">
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="puffer3.jpg" alt ="pufferFish3" style ="width:275px;height:275px;align:middle"></td>
-        <td><a HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html/#kkush"><img src="flowerhorn4.jpg"  alt="flowerhorn4" style ="width:275px;height:275px;align:middle"></a></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="softcoral1.jpg" alt="softcoral1" style ="width:275px;height:275px;align:middle"></td>      
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="sponge3.jpg" alt="sponge3" style ="width:275px;height:275px;align:middle"></td>      
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="puffer3.jpg" alt ="pufferFish3" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><a HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html/#kkush"><img src="flowerhorn4.jpg"  alt="flowerhorn4" style ="width:275px;height:275px;align:middle"></a></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="softcoral1.jpg" alt="softcoral1" style ="width:275px;height:275px;align:middle"></td>      
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="sponge3.jpg" alt="sponge3" style ="width:275px;height:275px;align:middle"></td>      
 
     </tr>
-    <tr>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
-        <td style= "height:30px"> Price: $2878.99/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
+    <tr class ="spaceUnder2">
+        <td style= "height:30px"> Canthigaster papua <br> Price: $59.95</td>
+        <td style= "height:30px"> Cichlasomatinae <br> Price: $45.95</td>
+        <td style= "height:30px"> Alcyonacea  <br> Price: $74.95</td>
+        <td style= "height:30px"> Psuedaxinella lunaecharta <br> Price: $29.95</td>
 
     </tr>
     <tr style="font-size:150%; align:top">
@@ -116,17 +133,17 @@
         <th>Mushroom</th>
         <th>Sea Star</th>
      <tr style="font-size:250%">
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="eel2.jpg" alt="eel2" style ="width:275px;height:275px;align:middle"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="duboisi1.jpg" alt="duboisi1" style ="width:275px;height:275px;align:middle"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="mushroom1.jpg" alt="mushroom1" style ="width:275px;height:275px;align:middle"></td>  
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="seastar1.jpg" alt="seastar1" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="eel2.jpg" alt="eel2" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="duboisi1.jpg" alt="duboisi1" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="mushroom1.jpg" alt="mushroom1" style ="width:275px;height:275px;align:middle"></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="seastar1.jpg" alt="seastar1" style ="width:275px;height:275px;align:middle"></td>
         
     </tr>
-    <tr>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
-        <td style= "height:30px"> Price: $2878.99/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
+    <tr class ="spaceUnder2">
+        <td style= "height:30px"> Muraenidae <br> Price: $34.95</td>
+        <td style= "height:30px"> Tropheus duboisi <br> Price: $16.95</td>
+        <td style= "height:30px"> Actinodiscidae <br> Price: $65.95</td>
+        <td style= "height:30px"> Asteroidea <br> Price: $44.95</td>
 
     </tr>
     <tr style="font-size:150%; align:top">
@@ -135,18 +152,17 @@
         <th>LPS</th>
         <th>Feather Duster</th>
      <tr style="font-size:250%">
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lionfish2.jpg" alt="lionfish2" style ="width:275px;height:275px;align:middle"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="angelfish1.jpg" alt="angelfish1" style ="width:275px;height:275px;align:middle"></td>
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lps1.jpg" alt="lps1" style ="width:275px;height:275px;align:middle"></td>  
-        <td><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="featherduster3.jpg" alt="featherduster3" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lionfish2.jpg" alt="lionfish2" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="angelfish1.jpg" alt="angelfish1" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lps1.jpg" alt="lps1" style ="width:275px;height:275px;align:middle"></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="featherduster3.jpg" alt="featherduster3" style ="width:275px;height:275px;align:middle"></td>
         
     </tr>
-    <tr>
-        <td style= "height:30px"> Price: $3353.01/lb</td>
-        <td style= "height:30px"> Price: $2878.99/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-        <td style= "height:30px"> Price: $2432.54/lb</td>
-
+    <tr class ="spaceUnder2">
+        <td style= "height:30px"> Pterois<br> Price: $ 49.95</td>
+        <td style= "height:30px"> Pterophyllum <br> Price: $24.95</td>
+        <td style= "height:30px"> Acanthastrea hillae <br> Price: $148.95</td>
+        <td style= "height:30px"> Bispira brunnea <br> Price: $34.95</td>
     </tr>
 </table>
 <!--
@@ -157,4 +173,5 @@
     <bgsound src ="binladen.mp3" autostart="false" loop="infinite">    
 </noembed>
 !-->
+        </body>
 </html>
