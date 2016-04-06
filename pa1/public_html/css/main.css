@@ -16,12 +16,14 @@ h1 {
 
 h1.large:hover {
     font-size: 3em;
+    color: #e6e6ff;
 }
 
 h1.large {
     font-size: 2.5em;
     display: inline;
     margin: auto;
+    color: #b3b3ff;
 }
 
 div.h1-large-wrapper {
@@ -29,21 +31,33 @@ div.h1-large-wrapper {
     text-align: center;
 }
 
-div.img-wrapper {
+/*div.img-wrapper {
     padding-top: 2em;
     height: 5em;
     display: inline;
     margin: 0;
     padding: 0;
+}*/
+
+.profile-img {
+    width: 300px;
+    height: 200px;
 }
 
-div.img-wrapper img {
-    width: 100px;
-    height: 60px;
+table.profile-table {
+    padding: 20px;
+}
+
+table.profile-table tr {
+    padding: 10px;
+}
+
+table.profile-table tr td{
+    padding: 10px;
 }
 
 #team-img {
-    height: 10em;
+    
 }
 
 #top {
