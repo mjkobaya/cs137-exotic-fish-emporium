@@ -40,20 +40,32 @@ div.h1-large-wrapper {
 }*/
 
 .profile-img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 table.profile-table {
     padding: 20px;
+    display: block;
+    text-align: center;
 }
 
 table.profile-table tr {
     padding: 10px;
+    display: inline;
 }
 
 table.profile-table tr td{
     padding: 10px;
+}
+
+.profile-desc-wrapper {
+    height: 100px;
+}
+
+.profile-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
 }
 
 #team-img {
