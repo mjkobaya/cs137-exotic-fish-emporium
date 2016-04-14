@@ -4,7 +4,7 @@
     
     <style type="text/css">
     html{
-    background: url("lionfishbackground2.jpg"); 
+    background: url("img/lionfishbackground2.jpg"); 
     background-size:100% auto;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -13,9 +13,14 @@
         {
             padding-bottom:1em;
         }
-        tr.spaceUnder2 > td
+/*        tr.spaceUnder2 > td
         {
             padding-bottom:1em;
+        }*/
+        .formatTable
+        {
+            width: 275px;
+            height:275px;
         }
         #titleP
         {
@@ -34,25 +39,31 @@
         }
         img
         {
-            border-radius: 400px;
+            border-radius: 200px;
             height:auto;
             max-width:100%;
+            width:275px;
+            height:275px;
+            transition: all 0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+            transform-origin: 0.2 0.5;
         }
         #p1 
         {
             background-color: hsla(0, 0%, 0%, 0.6);
-            
         }
         body
         {
             background-color: hsla(0, 0%, 0%, 0.6);
-   
         }
-        .thumbnail:hover 
+       
+        img:hover 
         {
-            transform:scale(1.5,1.5);
-            transform-origin: 0.2 0.5;
-}
+            transform:scale(1.3,1.3);
+           
+            cursor:pointer;
+        }
         </style>
 
         <body class="body"> 
@@ -60,27 +71,26 @@
     <h2 id="titleP" class="font">Exotic Fish</h2>
     
 </div>
-<table  border="0" style="color:white; text-align: center; font-family: Arial, Helvetica, sans-serif; width:100%">
-    <tr class="spaceUnder1" style="font-size:200%">
+<table border="0" style="color:white; text-align: center; font-family: Arial, Helvetica, sans-serif; width:100%">
+    <tr class="spaceUnder1" style="font-size:200%;">
         <th ><strong>Saltwater Fish</strong></th>
         <th ><strong> Freshwater Fish</strong></th>
-        <th ><strong>Corals</strong></th>
-        <th ><strong>Invertebrates</strong></th>
+        <th ><strong>Coral</strong></th>
+        <th ><strong>Invertebrate</strong></th>
     </tr>
    
-    <tr style="font-size:150%; align:top">
+    <tr style="font-size:150%;">
         <th>Pipefish</th>
         <th> Discus</th>
         <th> Frags</th>
         <th>Shrimps</th>
-        
     </tr>
-    
-    <tr  style="font-size:250%">
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="pipefish3.jpg" alt = "pipefish3" style ="width:275px;height:275px;"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="discus4.jpg" style ="width:275px;height:275px;align:bottom"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="frag1.jpg" style ="width:275px;height:275px;align:middle"></td> 
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="shrimp3.jpg" style ="width:275px;height:275px;align:middle"></td>    
+        
+    <tr style="font-size:250% ">
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/pipefish3.jpg" alt = "pipefish3"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/discus4.jpg" alt ="discus4"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/frag1.jpg" alt="frag1"/></td> 
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/shrimp3.jpg" alt="shrimp3"/></td>    
     </tr>
     <tr class ="spaceUnder2">
         <td style= "height:30px"> Syngnathinae <br> Price: $34.95 </td>
@@ -96,10 +106,10 @@
         <th>Sea urchin</th>
     <tr style="font-size:250%">
         
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#skywalker"></A><img src="seahorse1.jpg" alt="seahorse1" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="arowana3.jpg" alt="Arowana3" style ="width:275px;height:275px;align:middle"></A></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="euphylia3.jpg" alt="euphylia3" style ="width:275px;height:275px;align:middle"></td>  
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"><img src="seaurchin4.jpg" alt="seaurchin4" style ="width:275px;height:275px;align:middle"></A></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#skywalker"></A><img src="img/seahorse1.jpg" alt="seahorse1"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"></A><img src="img/arowana3.jpg" alt="Arowana3"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/euphylia3.jpg" alt="euphylia3"/></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html#binladen"></A><img src="img/seaurchin4.jpg" alt="seaurchin4"/></td>
     </tr>
     <tr class ="spaceUnder2">
         <td style= "height:30px"> Hippocampus <br> Price: $74.95</td>
@@ -114,10 +124,10 @@
         <th>Soft Coral</th>
         <th>Sponge</th>
     <tr style="font-size:250%">
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="puffer3.jpg" alt ="pufferFish3" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><a HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html/#kkush"><img src="flowerhorn4.jpg"  alt="flowerhorn4" style ="width:275px;height:275px;align:middle"></a></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="softcoral1.jpg" alt="softcoral1" style ="width:275px;height:275px;align:middle"></td>      
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="sponge3.jpg" alt="sponge3" style ="width:275px;height:275px;align:middle"></td>      
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/puffer3.jpg" alt ="pufferFish3"/></td>
+        <td class ="thumbnail"><a HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html/#kkush"></A><img src="img/flowerhorn4.jpg"  alt="flowerhorn4"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/softcoral1.jpg" alt="softcoral1"/></td>      
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/sponge3.jpg" alt="sponge3"/></td>      
 
     </tr>
     <tr class ="spaceUnder2">
@@ -133,10 +143,10 @@
         <th>Mushroom</th>
         <th>Sea Star</th>
      <tr style="font-size:250%">
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="eel2.jpg" alt="eel2" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="duboisi1.jpg" alt="duboisi1" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="mushroom1.jpg" alt="mushroom1" style ="width:275px;height:275px;align:middle"></td>  
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="seastar1.jpg" alt="seastar1" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/eel2.jpg" alt="eel2"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/duboisi1.jpg" alt="duboisi1"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/mushroom1.jpg" alt="mushroom1"/></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/seastar1.jpg" alt="seastar1"/></td>
         
     </tr>
     <tr class ="spaceUnder2">
@@ -152,10 +162,10 @@
         <th>LPS</th>
         <th>Feather Duster</th>
      <tr style="font-size:250%">
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lionfish2.jpg" alt="lionfish2" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="angelfish1.jpg" alt="angelfish1" style ="width:275px;height:275px;align:middle"></td>
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="lps1.jpg" alt="lps1" style ="width:275px;height:275px;align:middle"></td>  
-        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"><img src="featherduster3.jpg" alt="featherduster3" style ="width:275px;height:275px;align:middle"></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/lionfish2.jpg" alt="lionfish2"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/angelfish1.jpg" alt="angelfish1"/></td>
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/lps1.jpg" alt="lps1"/></td>  
+        <td class ="thumbnail"><A HREF="http://andromeda-16.ics.uci.edu:8405/skywalker.html"></A><img src="img/featherduster3.jpg" alt="featherduster3"/></td>
         
     </tr>
     <tr class ="spaceUnder2">
