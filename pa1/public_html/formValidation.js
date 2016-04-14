@@ -26,4 +26,5 @@ function validateForm(defaultPid) {
     //window.location.href = "mailto:"+email+'?subject='+subject+'&body='+pid;
     // This one works
     //window.open("mailto:"+email+'?subject='+subject+'&body='+pid);
+    //test branch comment
 }
