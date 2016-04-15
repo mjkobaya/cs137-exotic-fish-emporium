@@ -25,23 +25,7 @@ h1.large {
     margin: auto;
     color: #b3b3ff;
 }
-    .imgs
-        {
-          
-            height:auto;
-            width:400px;
-            height:400px;
-            transition: all 0.5s;
-            -webkit-transition-timing-function: ease-in-out;
-            transition-timing-function: ease-in-out;
-            transform-origin: 0.2 0.5;
-        }
-        .imgs:hover 
-        {
-            transform:scale(1.1,1.1);
-           
-            cursor:pointer;
-        }
+
 div.h1-large-wrapper {
     height: 4em;
     text-align: center;
@@ -56,10 +40,20 @@ div.h1-large-wrapper {
 }*/
 
 .profile-img {
+    height:auto;
     width: 400px;
     height: 400px;
+    transition: all 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    transform-origin: 0.2 0.5;
 }
 
+ .profile-img:hover 
+    {
+        transform:scale(1.1,1.1);
+        cursor:pointer;
+    }
 table.profile-table {
     padding: 20px;
     display: inline;
