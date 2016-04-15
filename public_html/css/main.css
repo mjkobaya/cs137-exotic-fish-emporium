@@ -25,7 +25,23 @@ h1.large {
     margin: auto;
     color: #b3b3ff;
 }
-
+    .imgs
+        {
+          
+            height:auto;
+            width:400px;
+            height:400px;
+            transition: all 0.5s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+            transform-origin: 0.2 0.5;
+        }
+        .imgs:hover 
+        {
+            transform:scale(1.1,1.1);
+           
+            cursor:pointer;
+        }
 div.h1-large-wrapper {
     height: 4em;
     text-align: center;
@@ -67,7 +83,26 @@ table.profile-table tr td{
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
+.rotate{
+        -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
 
+        -webkit-transition-property: -webkit-transform;
+        -moz-transition-property: -moz-transform;
+        -o-transition-property: -o-transform;
+        transition-property: transform;
+
+        overflow:hidden;
+    }
+
+    .rotate:hover
+    {
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+    }
 #team-img {
     text-align: center;
 }
@@ -99,7 +134,7 @@ table.profile-table tr td{
 
 #top-navbar ul{
     margin:0;
-    padding: 1em 0em 2em 0em;
+    padding: 1em 3em 2em 0em;
     background-image: url("../img/scale-light.png");
     background-color: #204060;
 }

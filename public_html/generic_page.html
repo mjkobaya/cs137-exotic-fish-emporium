@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <title>Generic Page</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- custom CSS -->
+<link rel="stylesheet" href="css/main.css" type="text/css"> 
+<style>
+    
+    formB
+    {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 40px;
+    }
+    input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    
+</style>
+</head>
+
+<body class = "p1" id="top">
+   
+
+<div>
+    <form class = "formB" id="orderForm" name="form" onsubmit="return validateForm('magikarp')" method="post">
+        Product Identifier: <input type="text" name="pid" value="magikarp" required><br/>
+        Quantity (at most 10): <input type="number" name="quantity" value="1" required><br/>
+        First Name: <input type="text" name="fname" value="Forreal" required><br/>
+        Last Name: <input type="text" name="lname" value="Doe" required><br/>
+        Phone Number: <input type="tel" name="phoneNum" value="1431431431" required><br/>
+        Shipping Address: <input type="text" name="address" value="123 Anteater Dr" required><br/>
+        Shipping Method: 
+        <select name="shipMethod" form="orderForm">
+            <option value="overnight">Overnight</option>
+            <option value="2day" selected>2-Day</option>
+            <option value="ground">Ground</option>
+        </select><br/>
+        Credit Card Number: <input type="number" name="creditCard" value="1234123412341234" required><br/>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
