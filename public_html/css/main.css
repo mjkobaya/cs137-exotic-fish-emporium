@@ -46,7 +46,7 @@ div.h1-large-wrapper {
 
 table.profile-table {
     padding: 20px;
-    display: block;
+    display: inline;
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ table.profile-table tr td{
 }
 
 #team-img {
-    
+    text-align: center;
 }
 
 #top {
