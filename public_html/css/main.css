@@ -117,7 +117,8 @@ table.profile-table tr td{
 }
 #slide
 {
-    background-image: url("../img/lionfish.JPG");
+    background-image: url("../img/altBackground.png");
+   
     position:relative;
     background-size: 100%;
     background-repeat:no-repeat;
@@ -125,6 +126,7 @@ table.profile-table tr td{
     padding-bottom:100px;
     padding-top:10px;
 }
+
 .slideShowImages
 {
     
@@ -139,7 +141,14 @@ table.profile-table tr td{
     font-size: 2.5em;
     text-align: center;
 }
-
+h2
+    {
+        position: relative; 
+        color: #ff80aa;
+        text-align: center; 
+        font-size: 50px;
+        font-family: Playfair Display, serif;
+    }
 #top-navbar {
     margin: 0;
     padding: 0;
