@@ -10,12 +10,28 @@
         
         <!-- custom CSS -->
         <link rel="stylesheet" href="css/main.css" type="text/css">
-   
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
     </head>
+   
     <!-- end header -->
     
     <!-- body -->
     <body>
+         <style>
+    img
+       {
+           border-radius: 50px;
+        }
+    h2
+    {
+        position: relative; 
+        color: #ff80aa;
+        text-align: center; 
+        font-size: 50px;
+        font-family: Playfair Display, serif;
+    }
+            
+   </style>
         <!-- navbar -->
         <section id="top-navbar">
             <ul>
@@ -29,9 +45,23 @@
         <!-- end navbar -->
         
         <!-- top -->
-        <section id="top">
-            <h1>Buy exotic fish, not available anywhere else!</h1>
-        </section>
+        
+        <div id="slide">
+            <div>
+                <h2> Orix && Loom Exotic Fish </h2>
+            </div>
+            
+            <img  class="slideshow" alt="angelfish3" src="img/angelfish3.jpg" style=" width:650px;height:400px; ">
+            <img  class="slideshow" alt="flowerhorn4" src="img/pipefish3.jpg" style="width:650px;height:400px;">
+            <img  class="slideshow" alt="seaurchin4" src="img/seaurchin4.jpg" style=" width:650px;height:400px;">
+            <img  class="slideshow" alt="seaurchin4" src="img/lionfish2.jpg" style=" width:650px;height:400px;">
+            <img  class="slideshow" alt="seaurchin4" src="img/shrimp4.jpg" style=" width:650px;height:400px;">
+            <img  class="slideshow" alt="seaurchin4" src="img/euphylia3.jpg" style=" width:650px;height:400px;">
+        </div>
+            
+        
+        
+        
         <!-- end top -->
         
         <!-- about us -->
@@ -90,7 +120,23 @@
             </div>
         </section>
         <!-- end about us -->
-        
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slideshow");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1;}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500); // Change image every 2 seconds
+}
+</script>
+
     </body>
     <!-- end body -->
     
