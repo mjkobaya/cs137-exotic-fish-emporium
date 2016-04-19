@@ -26,15 +26,23 @@ function validateForm(pid) {
         alert("First name shouldn't have numeric digits.");
         return false;
     }
-
-    
-    var phoneNum = document.getElementById("phone").value;
-    if (phoneNum.length > 10) {
-        alert("Phone number should be 10 digits or less.");
+ if (fname.length <1) {
+        alert("Enter Full Name");
         return false;
         //no letters
     }
     
+    var phoneNum = document.getElementById("phone").value;
+    if (phoneNum.length > 10) {
+        alert("Phone number should be 10 digits.");
+        return false;
+        //no letters
+    }
+       if (phoneNum.length < 7) {
+        alert("Phone number should be at least 7 digits.");
+        return false;
+        //no letters
+    }
     var creditCard = document.getElementById("creditcard").value;
     
     if(isNaN(creditCard)){
@@ -57,8 +65,24 @@ function validateForm(pid) {
         alert("Invalid City");
         return false;
     }
+
+if (address.length == 0) {
+        // DEBUG
+        alert("Invalid Address");
+        return false;
+    }
+    if (city.length == 0) {
+        // DEBUG
+        alert("Invalid City");
+        return false;
+    }
     var state = document.getElementById("state").value;
 
+   if (state.length == 0) {
+        // DEBUG
+        alert("Invalid State");
+        return false;
+    }
     var stateMatches = state.match(/\d+/g);
     if (stateMatches != null) {
         // DEBUG
