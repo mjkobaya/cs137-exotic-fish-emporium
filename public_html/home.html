@@ -32,25 +32,24 @@
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="store.html">Store</a></li>
-                <li id="logo-img-li" ><a href="home.html"><img class="rotate" id="logo-img" src="img/fish-logo.png"/></a></li>
-                <li class="right"><h1>Fishes Forever</h1></li>
+                <li id="logo-img-li" ><a href="home.html"><img class="rotate" id="logo-img" src="img/fish-logo.png" alt ="fish-logo"/></a></li>
+                <li class="right"><h1>Fish Forever</h1></li>
             </ul>  
         </section>
         <!-- end navbar -->
         
         <!-- top -->
         
-        <div id="slide">
-            <div>
-                <h2> Orix && Loom Exotic Fish </h2>
-            </div>
+        
+            <div id="slide" >
+            <h2 id="titleP" class="font">Fish Forever</h2>
             
-            <img  class="slideshow" alt="angelfish3" src="img/sale1.jpg" style=" width:650px;height:400px; ">
-            <img  class="slideshow" alt="flowerhorn4" src="img/sale2.jpg" style="width:650px;height:400px;">
-            <img  class="slideshow" alt="seaurchin4" src="img/sale3.jpg" style=" width:650px;height:400px;">
-            <img  class="slideshow" alt="seaurchin4" src="img/sale4.jpg" style=" width:650px;height:400px;">
-            <img  class="slideshow" alt="seaurchin4" src="img/sale5.jpg" style=" width:650px;height:400px;">
-            <img  class="slideshow" alt="plecostomus" src="img/sale6.jpg" style=" width:650px;height:400px;">
+            <a href="store.html#octopus"> <img  class="slideshow" alt="angelfish3" src="img/sale1.jpg" style=" width:650px;height:400px; "></a>
+            <a href="store.html#seaurchin"> <img  class="slideshow" alt="flowerhorn4" src="img/sale2.jpg" style="width:650px;height:400px;"></a>
+            <a href="store.html#lionfish"><img  class="slideshow" alt="seaurchin4" src="img/sale3.jpg" style=" width:650px;height:400px;"></a>
+            <a href="store.html#euphylia"><img  class="slideshow" alt="seaurchin4" src="img/sale4.jpg" style=" width:650px;height:400px;"></a>
+            <a href="store.html#angelfish"><img  class="slideshow" alt="seaurchin4" src="img/sale5.jpg" style=" width:650px;height:400px;"></a>
+            <a href="store.html#pleco"><img  class="slideshow" alt="plecostomus" src="img/sale6.jpg" style=" width:650px;height:400px;"></a>
         </div>
             
         
@@ -75,8 +74,8 @@
                             <img class="profile-img" src="img/triton.png" alt="Profile Image"/>
                             <div class="profile-desc-wrapper">
                             <h3 class="profile-desc"> Melinda Kobayashi </h3>
-                            <p class="profile-desc">Committed to bringing you the most <br/>
-                                exotic fish in the sea!
+                            <p class="profile-desc"> Contact Email: mkobayashi@uci.edu<br/>
+                               Founder of Fish Forever
                             </p> 
                             </div>
                         </td>
@@ -84,8 +83,8 @@
                             <img class="profile-img" src="img/max.gif" alt="Profile Image"/>
                             <div class="profile-desc-wrapper">
                             <h3 class="profile-desc"> Jonathan Orozco </h3>
-                            <p class="profile-desc">Committed to bringing you the most <br/>
-                                exotic fish in the sea!
+                            <p class="profile-desc"> Contact Email: jorozco@uci.edu <br/>
+                                Co-founder of Fish Forever
                             </p> 
                             </div>
                         </td>
@@ -95,8 +94,8 @@
                             <img  class="profile-img" src="img/ariel.png" alt="Profile Image"/>
                             <div class="profile-desc-wrapper">
                             <h3 class="profile-desc"> Howard Liu </h3>
-                            <p class="profile-desc">Committed to bringing you the most <br/>
-                                exotic fish in the sea!
+                            <p class="profile-desc">Contact Email: hliu@uci.edu<br/>
+                                Customer Service Representative
                             </p> 
                             </div>
                         </td>
@@ -104,8 +103,8 @@
                             <img class="profile-img" src="img/sebastian.png" alt="Profile Image"/>
                             <div class="profile-desc-wrapper">
                             <h3 class="profile-desc"> Fred Rezine </h3>
-                            <p class="profile-desc">Committed to bringing you the most <br/>
-                                exotic fish in the sea!
+                            <p class="profile-desc">Contact Email: frez@uci.edu<br/>
+                                Marine Biologist
                             </p> 
                             </div>
                         </td>
@@ -127,7 +126,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1;}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 1000); // Change image every 2 seconds
+    setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 </script>
 
