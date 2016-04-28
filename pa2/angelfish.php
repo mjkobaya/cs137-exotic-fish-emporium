@@ -93,8 +93,19 @@
                   </div>
                </div>
             </td>
-            <td style="background-color:rgba(0, 255, 0, 0);vertical-align:top;width:400px">                
-               <p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">AngelFish<br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $15.95</a></p>
+            <td style="background-color:rgba(0, 255, 0, 0);vertical-align:top;width:400px">
+</html>
+            <?php
+              require_once("connect.php");
+              
+              $sql = "SELECT name, price, description FROM products WHERE pid = 18";
+
+              foreach ($conn->query($sql) as $row) {
+                      echo '<p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">' . $row['name'] . '<br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $15.95</a></p>';
+              }               
+            ?>
+<html>
+               <!--<p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">AngelFish<br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $15.95</a></p>-->
                <p style="position: relative;bottom:70px;font-size: 105%;color:#DDE5F9;text-shadow: 1px 1px #000000">Pterophyllum is a small genus of freshwater fish from the family Cichlidae known to most aquarists as "angelfish". All Pterophyllum species originate from the Amazon Basin, Orinoco Basin and various rivers in the Guiana Shield in tropical South America. The three species of Pterophyllum are unusually shaped for cichlids being greatly laterally compressed, with round bodies and elongated triangular dorsal and anal fins. This body shape allows them to hide among roots and plants, often on a vertical surface. Naturally occurring angelfish are frequently striped longitudinally, colouration which provides additional camouflage. Angelfish are ambush predators and prey on small fish and macroinvertebrates. All Pterophyllum species form monogamous pairs. Eggs are generally laid on a submerged log or a flattened leaf. As is the case for other cichlids, brood care is highly developed.</p>
                <button style=" border-radius: 10px;font-size:200%;position: relative;bottom:40px;background-color:#204060"onclick="document.getElementById('id01').style.display='block';calculatePrice()" class="w3-btn">Buy</button>
             </td>
