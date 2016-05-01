@@ -15,8 +15,8 @@ require_once("../connect.php");
 	City:<br>
 	<input type="text" name="city"><br>
 	State:<br>
-	<input type="text" name="state">
+	<input type="text" name="state"><br>
 	Zipcode:<br>
-	<input type="number" name="zipcode">
+	<input type="number" name="zipcode" onblur="getZipcode(this.value)">
 </form>
 </html>
