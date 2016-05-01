@@ -15,7 +15,5 @@ try{
         //echo "Connection failed: " . $e->getMessage();
 }
 
-$test = 3;
-
 $link = null;
 ?>
