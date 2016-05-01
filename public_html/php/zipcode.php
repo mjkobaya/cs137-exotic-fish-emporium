@@ -9,8 +9,9 @@ $stmt->bindParam(':zipcode', $zipcode);
 $zipcode = $_POST['zipcode'];
 $stmt->execute();
 
-while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
-    echo "{ state : " . $row['state'] . ", city : " . $row['city'] . " }";
-}
+echo "Does this work?";
+// while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+//     echo "{ state : " . $row['state'] . ", city : " . $row['city'] . " }";
+// }
 
 ?>
