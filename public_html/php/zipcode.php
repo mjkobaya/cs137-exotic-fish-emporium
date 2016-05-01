@@ -10,7 +10,8 @@ $zipcode = $_POST["zip"];
 $stmt->execute();
 
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
-    echo "{ state : " . $row['state'] . ", city : " . $row['city'] . " }";
+    print_r($row);
+    //echo "{ state : " . $row['state'] . ", city : " . $row['city'] . " }";
 }
 
 ?>
