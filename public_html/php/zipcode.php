@@ -9,10 +9,8 @@ $stmt->bindParam(":zipcode", $zipcode);
 $zipcode = $_POST["zip"];
 $stmt->execute();
 
-// while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
-//     print_r($row);
-// }
-
-print_r($stmt->fetch(PDO::FETCH_ASSOC));
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+    print_r($row);
+}
 
 ?>
