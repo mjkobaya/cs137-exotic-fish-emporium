@@ -4,7 +4,7 @@ function getZipcode(zipcode) {
 	// DEBUG
 	console.log("zipcode: " + zipcode);
 
-	$.ajax({url: "demo_test.txt", success: function(result){
-        $("#div1").html(result);
+	$.ajax({url: "php/zipcode.php", success: function(result){
+        console.log(result);
     }});
 }
