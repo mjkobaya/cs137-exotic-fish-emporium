@@ -4,27 +4,47 @@
 
 <body>
 
-<form>
-  First name:<br>
-  <input type="text" name="firstname">
+
+
+<p>Test PHP FORM</p>
+
+
+<form action="test.php" id="form" method="post">
+  Full name:<br>
+  <input type="text" name="name" value="Mickey">
   <br>
-  Last name:<br>
-  <input type="text" name="lastname">
-
-
-</form>
-
-<p>Note that the form itself is not visible.</p>
-
-<p>Also note that the default width of a text input field is 20 characters.</p>
-<form action="action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
+  Address:<br>
+  <input type="text" name="address" value="Mouse">
   <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
+  City:<br>
+  <input type="text" name="city" value="Irvine">
+  <br>
+  State:<br>
+  <input type="text" name="state" value="CA">
+  <br>
+  Zip:<br>
+  <input type="text" name="zip" value="92614">
+  <br>
+  Phone Number:<br>
+  <input type="text" name="phone" value="1231231234">
+  <br>
+  Credit Card:<br>
+  <input type="text" name="creditCard" value="1234123412341234">
+  <br>
+  Shipping Method:<br>
+  <select name="shipMethod" id = "form" onchange="calculatePrice()">
+    <option spec="Ground" value="0.00" selected>Ground (Free)</option>
+    <option spec="2-Day" value="9.99">2-Day ($9.99)</option>
+    <option spec="Overnight" value="19.99">Overnight ($19.99)</option>
+  </select>
+  <br>
+  Quantity:<br>
+  <input type="text" name="quantity">
   <br><br>
-  <input type="submit" value="Submit">
+  <button type="submit">
 </form> 
 </body>
 </html>
+
+
+
