@@ -10,10 +10,10 @@ function getZipcode(zipcode) {
 
     $.post("php/zipcode.php",
     {
-        zipcode: zipcode
+        zip: zipcode
     },
 
-    function(data, status){
+    function(data){
         console.log(data);
     });
 }

@@ -4,9 +4,9 @@
 require_once("../connect.php");
 
 $stmt = $conn->prepare("SELECT state, city FROM zipcodes WHERE zip = :zipcode");
-$stmt->bindParam(':zipcode', $zipcode);
+$stmt->bindParam(":zipcode", $zipcode);
 
-$zipcode = $_POST['zipcode'];
+$zipcode = $_POST["zip"];
 $stmt->execute();
 
 echo "Does this work?";
