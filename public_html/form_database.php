@@ -24,7 +24,22 @@
 	$ship = test_input($_POST['shipMethod']);
 	$quant = test_input($_POST['quantity']);
 
-    $stmt->execute();
+    if ($stmt->execute()) {
+        // show confirmation
+        ?>
+        <html>
+        <p>hello</p>
+        </html>
+        <?php
+    }
+    else {
+        // failure; display error
+        ?>
+        <html>
+        <p>error</p>
+        </html>
+        <?php
+    }
 
     function test_input($data) {
     	$data = trim($data);
