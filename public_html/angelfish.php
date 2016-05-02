@@ -11,7 +11,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- custom CSS -->
       <link rel="stylesheet" href="css/main.css" type="text/css">
-       </head>
+      
+      <!-- jQuery CDN -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+      <!-- Javascript for Ajax call -->
+      <script src="js/zipcode_ajax.js"></script>
+
+    </head>
     <body style="background-color:rgba(0, 255, 0, 0)">
 
       <style>
@@ -176,7 +183,7 @@
                               </tr>
                               <tr>
                                  <td>ZIP:<br>
-                                    <input type="text" id="zip" name="zip">
+                                    <input type="text" id="zip" name="zip" onblur="getZipcode(this.value)">
                                  </td>
                                  <td>
                                   <h1 style="font-size:20px; color:black"</h1>
