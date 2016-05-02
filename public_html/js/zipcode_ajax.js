@@ -14,6 +14,6 @@ function getZipcode(zipcode) {
     },
 
     function(data){
-        console.log(data);
+        console.log(data["state"]);
     });
 }
