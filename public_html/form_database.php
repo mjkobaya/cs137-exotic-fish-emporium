@@ -113,7 +113,7 @@
             <div class="confirmation">
                 <p class="confirm-title">Order Confirmation</p>
                 <ul>
-                  <li>Name:</li><?php echo $pname; ?>
+                  <li>Name: </html><?php echo $pname; ?><html>/li>
                   <li>Phone Number:</li>
                   <li>Credit Card:</li>
                   <li>Address:</li>
