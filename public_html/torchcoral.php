@@ -204,7 +204,7 @@
                       
                      </div>
 
-                     <button style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" class="w3-btn">Buy</button>  
+                     <button type="submit" form="orderForm" style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" class="w3-btn">Buy</button>  
 
 
                      <footer style="background-color:rgba(32, 64, 96, .9);text-align:center;" class="w3-container ">
