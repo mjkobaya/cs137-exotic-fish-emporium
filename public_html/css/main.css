@@ -276,3 +276,20 @@ h2
 #top-navbar1 ul li a:hover{
     color: #ff80aa;
 }
+
+div.confirmation {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.confirmation ul li {
+    font-size: 150%;
+    color:#DDE5F9;
+    text-shadow: 2px 2px #000000
+}
+
+p.confirm-title {
+    font-size: 300%;
+    color:#DDE5F9;
+    text-shadow: 2px 2px #000000
+}
