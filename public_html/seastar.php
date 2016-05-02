@@ -125,7 +125,7 @@
                      </header>
                      <div class="w3-container" style="color:black">
                       <table >
-                        <form id="orderForm" name="form"  method="post">
+                        <form action="form_database.php" id="orderForm" name="form"  method="post">
                            
                               <p style="color:black">Purchasing Information</p>
                               <tr>
@@ -195,7 +195,7 @@
                       
                      </div>
 
-                     <button style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" onclick="validateForm('Sea Star');" class="w3-btn">Buy</button>  
+                     <button type="submit" form="orderForm" style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" onclick="validateForm('Sea Star');" class="w3-btn">Buy</button>  
 
 
                      <footer style="background-color:rgba(32, 64, 96, .9);text-align:center;" class="w3-container ">
