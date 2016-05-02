@@ -127,7 +127,10 @@
             // failure; display error
             ?>
             <html>
-            <p>error</p>
+            <div class="confirmation">
+                <p class="confirm-title">Sorry! There was an error processing your order.</p>
+            </div>
+            </body>
             </html>
             <?php
         }
