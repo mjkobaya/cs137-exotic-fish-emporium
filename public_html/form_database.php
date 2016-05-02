@@ -3,7 +3,7 @@
 	ini_set('display_errors', 1);
     require_once("connect.php");
 
-    $stmt = $conn->prepare("INSERT INTO purchase_info (FullName, Addr, Cityinfo, State, Zip, Phone, Creditcard, Shipping, Quantity) VALUES (':pname',':addr',':pcity','pstate',':pzip',':pphone',':credit',':ship',':quant')"); 
+    $stmt = $conn->prepare("INSERT INTO purchase_info (FullName, Addr, Cityinfo, State, Zip, Phone, Creditcard, Shipping, Quantity) VALUES (:pname,:addr,:pcity,:pstate,:pzip,:pphone,:credit,:ship,:quant)"); 
     $stmt->bindParam(':pname', $pname);
     $stmt->bindParam(':addr', $addr);
     $stmt->bindParam(':pcity', $pcity);
