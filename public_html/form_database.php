@@ -113,16 +113,16 @@
             <div class="confirmation">
                 <p class="confirm-title">Order Confirmation</p>
                 <ul>
-                  <li>Name: </html><?php echo $pname; ?><html>/li>
-                  <li>Phone Number:</li>
-                  <li>Credit Card:</li>
-                  <li>Address:</li>
-                  <li>City:</li>
-                  <li>State:</li>
-                  <li>Zip Code:</li>
-                  <li>Shipping:</li>
-                  <li>Quantity:</li>
-                  <li>Total:</li>
+                  <li>Name: </html><?php echo $pname; ?><html></li>
+                  <li>Phone Number: </html><?php echo $pphone; ?><html></li>
+                  <li>Credit Card: </html><?php echo $credit; ?><html></li>
+                  <li>Address: </html><?php echo $addr; ?><html></li>
+                  <li>City: </html><?php echo $pcity; ?><html></li>
+                  <li>State: </html><?php echo $pstate; ?><html></li>
+                  <li>Zip Code: </html><?php echo $pzip; ?><html></li>
+                  <li>Shipping: </html><?php echo $ship; ?><html></li>
+                  <li>Quantity: </html><?php echo $quant; ?><html></li>
+                  <li>Total: </html><?php echo $_POST['total']; ?><html></li>
                 </ul>
             </div>
             </body>
