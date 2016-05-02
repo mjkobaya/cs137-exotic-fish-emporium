@@ -1,7 +1,6 @@
 <html>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-   <link rel="stylesheet" href="css/main.css" type="text/css">
    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
    
    <head>
@@ -74,7 +73,7 @@
             <li><a href="home.html">Home</a></li>
             <li><a href="home.html#about">About Us</a></li>
             <li><a href="store.html">Store</a></li>
-            <li style="margin:0;padding:5px 15px 0px 15px; display:inline; width:5em;float:right"id="logo-img-li" ><a style="width:120%;"href="home.html"><img id="logo-img" src="img/fish-logo.png"/></a></li>
+            <li style="margin:0;padding:5px 15px 0px 15px; display:inline; width:5em;float:right"id="logo-img-li-" ><a style="width:120%;"href="home.html"><img class="rotate" id="logo-img" src="img/fish-logo.png"/></a></li>
             <li class="right">
                <h1 style="font-weight:bold;font-size:150%">Fish Forever</h1>
             </li>
