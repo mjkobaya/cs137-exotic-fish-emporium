@@ -107,15 +107,15 @@
             
               require_once("connect.php");
 
-              $sql = "SELECT name, price, description FROM products WHERE pid = 18";
+              $sql = "SELECT name, price, description FROM products WHERE pid = 9";
 
               foreach ($conn->query($sql) as $row) {
                       echo '<p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">' . $row['name'] . '<br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $15.95</a></p>';
                       echo '<p style="position: relative;bottom:70px;font-size: 105%;color:#DDE5F9;text-shadow: 1px 1px #000000">' . $row['description'] . '</p>';
               }               
             ?>
-               <p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">Pufferfish  <br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $59.95</a></p>
-               <p style="position: relative;bottom:70px;font-size: 105%;color:#DDE5F9;text-shadow: 1px 1px #000000">Tetraodontidae is a family of primarily marine and estuarine fish of the order Tetraodontiformes. The family includes many familiar species, which are variously called pufferfish, puffers, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, sugar toads, and sea squab. The majority of pufferfish species are toxic and some are among the most poisonous vertebrates in the world. In certain species, the internal organs, such as liver, and sometimes their skin, contain tetrodotoxin and are highly toxic to most animals when eaten. Although most species live in inshore and estuarine waters, 29 species spend their entire lifecycles in fresh water. These species are found in disjunct tropical regions of South America (one species), Central Africa (three species) and Southeast Asia (25 species).</p>
+               <!-- <p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">Pufferfish  <br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $59.95</a></p>
+               <p style="position: relative;bottom:70px;font-size: 105%;color:#DDE5F9;text-shadow: 1px 1px #000000">Tetraodontidae is a family of primarily marine and estuarine fish of the order Tetraodontiformes. The family includes many familiar species, which are variously called pufferfish, puffers, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, sugar toads, and sea squab. The majority of pufferfish species are toxic and some are among the most poisonous vertebrates in the world. In certain species, the internal organs, such as liver, and sometimes their skin, contain tetrodotoxin and are highly toxic to most animals when eaten. Although most species live in inshore and estuarine waters, 29 species spend their entire lifecycles in fresh water. These species are found in disjunct tropical regions of South America (one species), Central Africa (three species) and Southeast Asia (25 species).</p> -->
                <button style=" border-radius: 10px;font-size:200%;position: relative;bottom:40px;background-color:#204060"onclick="document.getElementById('id01').style.display='block';calculatePrice()" class="w3-btn">Buy</button>
             </td>
             <!-- Trigger/Open the Modal -->
