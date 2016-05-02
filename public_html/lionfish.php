@@ -106,7 +106,7 @@
             
               require_once("connect.php");
 
-              $sql = "SELECT name, price, description FROM products WHERE pid = 18";
+              $sql = "SELECT name, price, description FROM products WHERE pid = 17";
               foreach ($conn->query($sql) as $row) {
                       echo '<p style="position: relative;bottom:20px;font-size: 300%;color:#DDE5F9;text-shadow: 2px 2px #000000">' . $row['name'] . '<br> <a style="position: relative;bottom:20px;font-size:30px"> Price: $34.95</a></p>';
                       echo '<p style="position: relative;bottom:70px;font-size: 105%;color:#DDE5F9;text-shadow: 1px 1px #000000">' . $row['description'] . '</p>';
