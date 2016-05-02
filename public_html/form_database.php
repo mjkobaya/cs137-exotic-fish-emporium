@@ -112,6 +112,7 @@
             <html>
             <div class="confirmation">
                 <p class="confirm-title">Order Confirmation</p>
+                <p class="confirm-tagline">Thank you for your order! Here are the details:</p>
                 <ul>
                   <li>Name: </html><?php echo $pname; ?><html></li>
                   <li>Phone Number: </html><?php echo $pphone; ?><html></li>
@@ -120,7 +121,7 @@
                   <li>City: </html><?php echo $pcity; ?><html></li>
                   <li>State: </html><?php echo $pstate; ?><html></li>
                   <li>Zip Code: </html><?php echo $pzip; ?><html></li>
-                  <li>Shipping: </html><?php echo $ship; ?><html></li>
+                  <li>Shipping Cost: </html><?php echo $ship; ?><html></li>
                   <li>Quantity: </html><?php echo $quant; ?><html></li>
                   <li>Total: </html><?php echo $_POST['total']; ?><html></li>
                 </ul>
