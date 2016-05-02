@@ -134,7 +134,7 @@ if (address.length == 0) {
     // This doesn't work for some reason
     //window.location.href = "mailto:"+email+'?subject='+subject+'&body='+pid;
     // This one works
-    window.open("mailto:"+email+'?subject='+subject+'&body='+body);
+    //window.open("mailto:"+email+'?subject='+subject+'&body='+body);
 
 }
 

@@ -112,7 +112,7 @@
             <html>
             <div class="confirmation">
                 <p class="confirm-title">Order Confirmation</p>
-                <p class="confirm-tagline">Thank you for your order! Here are the details:</p>
+                <p class="confirm-tagline">Thank you for your order! Here are the order details:</p>
                 <ul>
                   <li>Name: </html><?php echo $pname; ?><html></li>
                   <li>Phone Number: </html><?php echo $pphone; ?><html></li>
