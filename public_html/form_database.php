@@ -113,9 +113,16 @@
             <div class="confirmation">
                 <p class="confirm-title">Order Confirmation</p>
                 <ul>
-                  <li>one</li>
-                  <li>one</li>
-                  <li>one</li
+                  <li>Name:</li><?php echo $pname; ?>
+                  <li>Phone Number:</li>
+                  <li>Credit Card:</li>
+                  <li>Address:</li>
+                  <li>City:</li>
+                  <li>State:</li>
+                  <li>Zip Code:</li>
+                  <li>Shipping:</li>
+                  <li>Quantity:</li>
+                  <li>Total:</li>
                 </ul>
             </div>
             </body>
