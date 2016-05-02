@@ -129,7 +129,7 @@
                      </header>
                      <div class="w3-container" style="color:black">
                       <table >
-                        <form action="form_database.php" id="orderForm" name="form"  method="post">
+                        <form action="form_database.php" id="orderForm" name="form"  method="post" onsubmit="return validateForm('Lionfish')">
                            
                               <p style="color:black">Purchasing Information</p>
                               <tr>
@@ -199,7 +199,7 @@
                       
                      </div>
 
-                     <button type="submit" form="orderForm" style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" onclick="validateForm('Lionfish');" class="w3-btn">Buy</button>  
+                     <button type="submit" form="orderForm" style="font-size:150%;width:10%;background-color:#204060;position:relative;bottom:30px;left:450px;" class="w3-btn">Buy</button>  
 
 
                      <footer style="background-color:rgba(32, 64, 96, .9);text-align:center;" class="w3-container ">
