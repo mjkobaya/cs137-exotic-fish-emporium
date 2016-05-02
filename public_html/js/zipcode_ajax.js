@@ -2,7 +2,7 @@
 
 function getZipcode(zipcode) {
 	// DEBUG
-	console.log("zipcode: " + zipcode);
+	//console.log("zipcode: " + zipcode);
 
     $.post("php/zipcode.php",
     {
@@ -11,10 +11,10 @@ function getZipcode(zipcode) {
 
     function(data){
     	// DEBUG
-        console.log(data);
+        //console.log(data);
         var jData = jQuery.parseJSON(data);
         // DEBUG
-        console.log("JSON state: " + jData["state"]);
+        //console.log("JSON state: " + jData["state"]);
 
         document.getElementById('state').value = jData["state"];
         document.getElementById('city').value = jData["city"];
