@@ -17,5 +17,8 @@ function getZipcode(zipcode) {
         console.log(data);
         var jData = jQuery.parseJSON(data);
         console.log("JSON state: " + jData["state"]);
+
+        document.getElementById('state').value = jData["state"];
+        document.getElementById('city').value = jData["city"];
     });
 }
