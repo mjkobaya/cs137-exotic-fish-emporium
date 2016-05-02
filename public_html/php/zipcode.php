@@ -11,7 +11,7 @@ $stmt->execute();
 
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
     //print_r($row);
-    echo "{ state : " . $row['state'] . ", city : " . $row['city'] . " }";
+    echo '{"state":"' . $row['state'] . '","city":"' . $row['city'] . '"}';
 }
 
 ?>
