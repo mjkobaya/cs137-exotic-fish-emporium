@@ -188,8 +188,8 @@
                                  <td>
                                   <h1 style="font-size:20px; color:black"</h1>
                                   <div type="price" id="price" value="15.95" > </div>
-                                  <div style="font-size:150%;position:relative;bottom:20px;"type="total" name="total" id="total" >Total: $15.95 </div>
-                                  
+                                  <div style="font-size:150%;position:relative;bottom:20px;"type="total" id="total" >Total: $15.95 </div>
+                                  <input type="hidden" name="total" id="hiddenTotal">
                  
                                  
                                 </td>
@@ -240,6 +240,7 @@
 
           document.getElementById("total").innerHTML = "Total: $" + total;
           document.getElementById("total").value = total;
+          document.getElementById("hiddenTotal").value = total;
          }
 
          function plusDivs(n) {
