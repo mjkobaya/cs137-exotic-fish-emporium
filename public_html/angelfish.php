@@ -132,7 +132,7 @@
                      </header>
                      <div class="w3-container" style="color:black">
                       <table >
-                        <form action="form_database.php" id="orderForm" name="form"  method="post" onsubmit="validateForm('Angelfish');">
+                        <form action="form_database.php" id="orderForm" name="form"  method="post" onsubmit="return validateForm('Angelfish')">
                            
                               <p style="color:black">Purchasing Information</p>
                               <tr>
